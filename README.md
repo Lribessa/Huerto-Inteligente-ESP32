@@ -34,3 +34,13 @@ Se estandarizó el uso de `sprintf` para formatear cadenas de texto, garantizand
 1. Configurar `SSID` y `PASS` en el sketch de Arduino.
 2. Desplegar el script de Google Apps Script incluido en la carpeta `/scripts`.
 3. Calibrar valores de ADC para los sensores (actualmente: Seco 2550 / Mojado 1100).
+
+## Galería del Proyecto
+
+| Instalación en el Huerto | Detalle de Sensores |
+| :---: | :---: |
+| ![Huerto](img/huerto-final.jpg) | ![Sensores](img/sensores-suelo.jpg) |
+
+### Datos Recibidos
+![Google Sheets](img/hoja-calculo.png)
+*Captura de los datos sincronizados tras pulsar el botón EN.*
