@@ -1,0 +1,14 @@
+# Archivos temporales de compilación
+build/
+bin/
+layout/
+
+# Archivos de configuración local del editor
+.vscode/
+.idea/
+*.swp
+*.bak
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
