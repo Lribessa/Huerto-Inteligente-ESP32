@@ -5,7 +5,7 @@ Este proyecto es un sistema de monitoreo de humedad de suelo diseñado para oper
 ## 2. Arquitectura y Funcionamiento
 A diferencia de los sistemas IoT convencionales que mantienen el Wi-Fi activo, este dispositivo prioriza la **autonomía de la batería** mediante una estrategia de "Sincronización Bajo Demanda".
 
-*   **Ciclo de Trabajo:** El ESP32 despierta cada 60 minutos mediante *Timer Wakeup*.
+*   **Ciclo de Trabajo:** El ESP32 despierta cada 30 minutos mediante *Timer Wakeup*.
 *   **Captura de Datos:** Si el RTC indica que es la ventana de lectura (07:00 o 19:00), los datos de los sensores se almacenan en el sistema de archivos **LittleFS**.
 *   **Transmisión:** El radio Wi-Fi solo se energiza si el dispositivo detecta un reinicio manual (Botón EN), procediendo a volcar los datos acumulados a un **Google App Script**.
 
